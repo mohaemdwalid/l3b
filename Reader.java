@@ -6,7 +6,7 @@ public class Reader extends User {
     public String FirstName;
     public String LastName;
     public String Address;
-    public int CellPhone;
+    public String CellPhone;
     public String Email;
     public String isBlocked;
 	String regNum;
@@ -35,12 +35,12 @@ public class Reader extends User {
 
 		System.out.println("Select type");
 		this.type = input.nextLine();
+
+		System.out.println("Enter CellPhone:");
+		this.CellPhone = input.nextLine();
 		
 		System.out.println("Enter Address:");
 		this.Address = input.nextLine();
-
-		System.out.println("Enter CellPhone:");
-		this.CellPhone = input.nextInt();
 
 		System.out.println("Enter Email");
 		this.Email = input.nextLine();

@@ -38,7 +38,9 @@ public class Readers {
 		// corresponding registered number
 		System.out.println("FirstName\t\tLastName\t\tId\t\tPassword\t\ttype\t\tCellPhone\t\tAddress\t\tEmail");
 		for (int i = 0; i < count; i++) {
-			System.out.println(theStudents[i].FirstName+ "\t\t"+ theStudents[i].LastName + "\t\t" +theStudents[i].type + "\t\t"+ theStudents[i].CellPhone + "\t\t" + theStudents[i].Address+ "\t\t" + theStudents[i].Email);
+			System.out.println(theStudents[i].FirstName+ "\t\t"+ theStudents[i].LastName + "\t\t" + theStudents[i].id  + "\t\t" + theStudents[i].Password  +
+			 "\t\t"+theStudents[i].type + "\t\t"+ theStudents[i].CellPhone +
+			 "\t\t" + theStudents[i].Address+ "\t\t" + theStudents[i].Email);
 		}
 	}
 
